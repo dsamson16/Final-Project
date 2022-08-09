@@ -1,0 +1,57 @@
+---
+title: "Personal Project"
+author: "Dylan Samson"
+date: "2022-07-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+```
+
+![](Australia.jfif)
+
+# **Final Project**
+
+**About the data:** *Monthly sales for a souvenir shop on the wharf at a beach resort town in Queensland, Australia. (Picture Australian Souvenir stand)*
+
+***Tab 1:*** Instructions: *Pleas*e read the instruction to receive the best experience with the Personal Project App.
+
+-   Ensure you are viewing the app at full screen by expanding the window.
+
+**Tab 2:** Full Time Series tab has the entire Souvenir data set available on a histogram available to view.
+
+**Tab 3:** Plot Choices, allows the user to break down the Souvenirs data set by viewing the Decomposition, Autocorrelation, and seasonality.
+
+-   Under "Please select a plot to view:" select the type of plot you would like to view and click the action button labelled "Submit"
+-   For best viewing expand page to full page.
+
+**Tab 4:** Date Range Decomposition's, allows the user to specify which years they would like to view decomposed.
+
+-   Under "Input Starting Year" type a year that is within the data collected range (1989-1993)
+
+-   Under "Input Ending Year" type a year greater then the input starting year and less then the maximum data collected range (1989-1993)
+
+**Tab 5:** Interpretations, are detailed analysis of all of the different plots created within the App
+
+**Tab 6:** Simple Models: created to see which forecasting feature would best predict the next souvenir sale year.
+
+-   Select model from the choices: Naive, Linear Model, Seasonal Naive, Drift, Mean and simple Exponential smoothing.
+
+-   Once the model is selected adjust the slider bar to display the total number of months foretasted.
+
+-   \*\* More then one model can be selected at the same time\*\*
+
+**Tab 7:** Exponential Smoothing: Created to show the difference between forecasting based off of trend versus Trend and seasonality.
+
+-   Select model from the choices: Holt and Holt Winters
+
+```{=html}
+<!-- -->
+```
+-   Once the model is selected adjust the slider bar to display the total number of months foretasted.
+
+-   \*\* More then one model can be selected at the same time\*\*
+
+**Tab 8:** ARIMA: The Arima tab allows the user to choose the number of K's represented on the Arima Fourier model or select the Default Arima model.
+
+-   Once the model is selected adjust the slider bar to display the total number of months foretasted.

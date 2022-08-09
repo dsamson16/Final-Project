@@ -1,0 +1,34 @@
+---
+title: "Interpreations"
+author: "Dylan Samson"
+date: "2022-07-26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+```
+
+# Interpretations
+
+![](images/paste-20AB4BF0.png){width="300"}
+
+**Interpretation of Full Time Series:** The time series is trending upward as each year the sales of Souvenirs increase.  This could be caused by increased marketing and number of products offered at the resort town in Queensland, Australia. The only exception in an upward trend in souvenir sales takes place in December of 1990 when sales were 30,114 (**-3,947 from 1989)** There is a seasonal trend that is signaling every 12 months in December there will likely be a spike in souvenir sales with the prior months 3 months gradually increasing as well.  The seasonal trend makes sense as during December the weather tends to be the nicest in Queensland, causing a larger influx of tourists to the beach resort.  This seasonal trend is consistent as in January of 1987 sales were 1,664  in December 19,756 (1987 Peak), the same is true in the most recent year of data 1993, with January 10,243 and December 104,660 (1993 max).  From the first year of given data to the last the seasonal cycle has been present.
+
+![](images/paste-AF1BEAE0.png){width="447"}
+
+**Interpretation of Seasonality:** The seasonality of the amount of Souvenir sales is consistently shown to have peaks during specific months of the year.  Each year from June to December the amount of souvenir sales increases gradually before peaking in December.  There is also a relative peak that occurs from January to March.  The seasonality trends have remained consistent from year to year since data was collected. The effect of which these seasons changes has on the sales has remained constant year over year as the initial plot in 1987 was 11 times larger in December then January.  In 1993 December is 10.2 times larger than January.
+
+![](images/paste-56E2F152.png){width="387"}
+
+**Interpretation of Autocorrelation:** The autocorrelation shows a 12-month lag that shows the data take a huge "spike" and become significant.  The spike is caused by the seasonality spike in December when sales skyrocket at the Souvenir shop.  
+
+![](images/paste-DD7C4615.png){width="390"}
+
+**Interpretation of Decomposition:** The additive decomposition of the total sales of souvenirs is broken down into three main pieces trend, seasonal, and random.  The largest portion of the decomposition is random, then seasonal followed by the smallest portion trend.  The seasonal trend portion.  The trend displays a an upward positive trend with a large "step" that takes place from January to July 1992.  The seasonal chart looks very consistent with a seasonal trend of growing in late June to spiking in December.  Lastly random, is the unexplained variation the large spike occurs in December 1992 when sales increased 179% od December 1991.
+
+**Interpretation of Decomposition Dates:** A tool for the user to input a selected date range to see how the seasonality, trends, and random noise have impacted certain years compared to the entire data set (See Second tab for full time series).
+
+***Not for Grading just interesting Forecasts:***
+
+![](images/paste-B196F779.png){width="224"}
